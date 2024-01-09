@@ -1,0 +1,9 @@
+Feature: Search phrase "Prowly Media Monitoring" on bing.com with filtering by content category
+
+Scenario: Search for news in the Past 7 days
+Given the user searched for "Prowly Media Monitoring" on bing.com
+When click on the "NEWS" category under the search bar
+And click on the button described "Date"
+And click on the option "Past 7 days" from dropdown menu
+Then the search results will consist only of news from the last 7 days
+

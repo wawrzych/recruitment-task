@@ -1,0 +1,10 @@
+Feature: Search phrase "Prowly Media Monitoring" on bing.com with filtering by content category
+
+Scenario: Search by the given phrase
+Given the user is on the site "bing.com"
+When the user type phrase "Prowly Media Monitoring" in search bar
+And click "enter" key on keyboard
+Then search results will appear
+And options to filter by content category will be under the search bar
+
+

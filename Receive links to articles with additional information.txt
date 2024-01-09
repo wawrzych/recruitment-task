@@ -1,0 +1,9 @@
+Feature: Using "copilot" in the bing.com search engine to gather information about Prowly's media monitoring module.
+
+Scenario: Receive links to articles with additional information
+Given the user is on the site "bing.com"
+When the user type phrase "Prowly's media monitoring module" in search bar
+And click "enter" key on keyboard
+And click on the "COPILOT" option under the search bar
+Then the user will receive information from AI
+And the "copilot" will provide some links to external sources with additional information

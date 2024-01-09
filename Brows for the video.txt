@@ -1,0 +1,7 @@
+Feature: Search phrase "Prowly Media Monitoring" on bing.com with filtering by content category
+
+Scenario: Brows for the video
+Given the user searched for "Prowly Media Monitoring" on bing.com
+When click on the "VIDEO" category under the search bar
+Then the search results will consist of video only
+
